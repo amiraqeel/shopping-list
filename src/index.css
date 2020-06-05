@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+#head1{
+    font-family: 'Dancing Script', cursive;
+}
+
+ul{
+    font-weight: normal;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 480px) {
+    #main{
+        width: 100%;
+    }
+} 
+@media only screen and (min-width: 768px) {
+    #main{
+        width: 60%;
+    }
+}
